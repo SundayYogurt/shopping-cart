@@ -9,5 +9,5 @@ export const addQuantity = (productId, quantity) => {
 }
 
 export const removeQuantity = (productId) => {
-    return { type: REMOVE_QUANTITY, payload: { productId }}
+    return { type: REMOVE_QUANTITY, payload: productId }
 }
